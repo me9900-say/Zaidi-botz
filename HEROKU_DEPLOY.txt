@@ -1,0 +1,21 @@
+HEROKU DEPLOY GUIDE
+
+1. Upload all files to GitHub
+2. Connect GitHub repo to Heroku
+3. Add Buildpack:
+   heroku/nodejs
+
+4. Environment Variables:
+   PORT=3000
+   OWNER_NUMBER=923xxxxxxxxx
+
+5. Deploy Branch
+
+BOT FIXES ADDED:
+- package.json fixed
+- pair.html added
+- health route added
+- Procfile added
+- msg.js fixed
+- Heroku ready setup
+- auto web route fix

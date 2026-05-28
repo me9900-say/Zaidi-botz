@@ -1,5 +1,14 @@
 const express = require('express');
 const app = express();
+
+app.get('/health', (req,res)=>{
+   res.status(200).send('ZAIDI BOT RUNNING');
+});
+
+app.get('/', (req,res)=>{
+   res.sendFile(__dirname + '/pair.html');
+});
+
 __path = process.cwd()
 const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 8000;

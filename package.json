@@ -1,15 +1,14 @@
 {
   "name": "ac80-bot",
   "version": "3.0.0",
-  "description": "AC80 WhatsApp Bot — Pair Code System",
+  "description": "AC80 WhatsApp Bot \u2014 Pair Code System",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
   "engines": {
-    "node": "20.x",
-    "npm": "10.x"
+    "node": "20.x"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -23,14 +22,12 @@
     "axios": "^1.7.9",
     "body-parser": "^1.20.2",
     "btch-downloader": "^2.2.9",
-    "canvas": "^2.11.2",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0",
     "crypto-js": "^4.2.0",
     "dotenv": "^16.4.5",
     "events": "^3.3.0",
     "express": "^4.19.2",
-    "ffmpeg": "^0.0.4",
     "file-type": "^18.7.0",
     "file_size_url": "1.0.4",
     "fluent-ffmpeg": "^2.1.2",
